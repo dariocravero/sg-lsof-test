@@ -11,6 +11,7 @@ gem 'spider-gazelle'
 
 # Project requirements
 gem 'rake'
+gem 'pendragon'
 
 # Component requirements
 gem 'slim'

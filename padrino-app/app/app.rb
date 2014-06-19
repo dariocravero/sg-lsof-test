@@ -1,7 +1,13 @@
+require 'pendragon/padrino'
+
 module PadrinoApp
   class App < Padrino::Application
     register Padrino::Mailer
     register Padrino::Helpers
+    register Pendragon::Padrino
+
+    # Also, your app's performance will be improved by using compiler mode.
+    set :pendragon, enable_compiler: true
 
     enable :sessions
 
