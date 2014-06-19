@@ -5,6 +5,7 @@ module PadrinoApp
     register Padrino::Mailer
     register Padrino::Helpers
     register Pendragon::Padrino
+    register Padrino::WebSockets
 
     # Also, your app's performance will be improved by using compiler mode.
     set :pendragon, enable_compiler: true

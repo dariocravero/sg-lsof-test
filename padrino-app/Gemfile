@@ -7,11 +7,12 @@ source 'https://rubygems.org'
 gem 'spider-gazelle'
 
 # Optional JSON codec (faster performance)
-# gem 'oj'
+gem 'oj'
 
 # Project requirements
 gem 'rake'
 gem 'pendragon'
+gem 'padrino-websockets', github: 'dariocravero/padrino-websockets', branch: :noping
 
 # Component requirements
 gem 'slim'
