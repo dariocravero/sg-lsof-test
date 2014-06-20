@@ -6,6 +6,9 @@ module PadrinoApp
     register Padrino::Helpers
     register Pendragon::Padrino
     register Padrino::WebSockets
+    register Padrino::Cache
+    enable :caching
+    set :cache, Moneta.new(:LRUHash, expires: true)
 
     # Also, your app's performance will be improved by using compiler mode.
     set :pendragon, enable_compiler: true
