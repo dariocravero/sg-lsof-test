@@ -81,6 +81,8 @@ GEM
       mustermann (= 0.2.0)
       rack (>= 1.3.0)
     polyglot (0.3.5)
+    rabl (0.10.1)
+      activesupport (>= 2.3.14)
     rack (1.5.2)
     rack-protection (1.5.3)
       rack
@@ -125,6 +127,7 @@ DEPENDENCIES
   padrino!
   padrino-websockets!
   pendragon
+  rabl
   rake
   slim
   spider-gazelle

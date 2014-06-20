@@ -5,8 +5,7 @@ PadrinoApp::App.controllers  do
 
   websocket :channel do
     on :ping do |message|
-      send_message(:channel, session['websocket_user'], {pong: true, data: message})
-      broadcast(:channel, {pong: true, data: message, broadcast: true})
+      send_message(:channel, session['websocket_user'], {pong: true, data: render(:ping, formats: :json)})
     end
   end
 end
