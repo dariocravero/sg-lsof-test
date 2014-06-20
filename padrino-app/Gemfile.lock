@@ -6,6 +6,14 @@ GIT
     padrino-websockets (0.1.0)
 
 GIT
+  remote: git://github.com/namusyaka/pendragon.git
+  revision: 9f7cb79c632eb527c9a85c04d219e1d2971ab479
+  specs:
+    pendragon (0.5.0)
+      mustermann (= 0.2.0)
+      rack (>= 1.3.0)
+
+GIT
   remote: git://github.com/padrino/padrino-framework.git
   revision: 68f7a036d9433b956da8d36cabce7fb2da8e361e
   specs:
@@ -77,9 +85,6 @@ GEM
     moneta (0.7.20)
     mustermann (0.2.0)
     oj (2.9.6)
-    pendragon (0.5.0)
-      mustermann (= 0.2.0)
-      rack (>= 1.3.0)
     polyglot (0.3.5)
     rabl (0.10.1)
       activesupport (>= 2.3.14)
@@ -126,7 +131,7 @@ DEPENDENCIES
   oj
   padrino!
   padrino-websockets!
-  pendragon
+  pendragon!
   rabl
   rake
   slim

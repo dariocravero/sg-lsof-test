@@ -4,7 +4,7 @@ PadrinoApp::App.controllers  do
   end
 
   get :random, with: :something, cache: true do
-    expires 30
+    expires 5
     cache_key do
       params[:something]
     end
