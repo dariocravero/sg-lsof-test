@@ -2,3 +2,6 @@ source 'https://rubygems.org'
 
 gem 'rack'
 gem 'spider-gazelle'
+gem 'pry'
+gem 'pry-debugger'
+gem 'pry-stack_explorer'
